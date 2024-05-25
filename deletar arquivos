@@ -1,0 +1,11 @@
+import os
+
+file_path = 'caminho do arquivo'
+
+print(file_path)
+
+if os.path.isfile(file_path):
+    os.remove(file_path)
+    print("done")
+else:
+    print("Arquivo não existe")
